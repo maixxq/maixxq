@@ -6,11 +6,12 @@ module.exports = {
 		repoLabel: 'Repo',
 		docsDir: 'src',
 		editLinks: true,
-		logo: '/vuepress-blog-logo.png',
+		logo: '/mailogo.png',
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' }, 
-			{ text: 'Learn', link: '/learn/' }
+			{ text: 'Learn', link: '/learn/' },
+			{ text: 'About', link: '/about/' }
 		],
 		version: '0.11.0-beta'
 	},

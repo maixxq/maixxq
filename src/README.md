@@ -1,19 +1,20 @@
 ---
 title: Home
 home: true
-heroText: Hero
-tagline: Some tagline
-actionText: Go To Github
-actionLink: https://github.com/bencodezen/vuepress-blog-boilerplate
+heroImage: /mailogo1.png 
+heroText: THEMAKBYMAK
+tagline: A place for some of Mai's stories
+actionText: Come On In >>
+actionLink: " "
 features:
 - 
-    title: Feature 1
-    details: Feature Details
+    title: Little Thoughts
+    details: It could be about studies, a pretty major part of my life now. It could be about work. Or it could be about life. Just some random thoughts that come into my mind which I could properly translate to words. 
 - 
-    title: Feature 2
-    details: Feature Details
+    title:  Golden Nuggets
+    details: This is to remind myself of what I have learnt in school, at work and from many amazing people I have met in my life. Disclaimer - it may include short, glitchy snippets knowledge with ugly doodles. 
 - 
-    title: Feature 3
-    details: Feature Details
-footer: This is a footer
+    title: Fancy Bits
+    details: Anything fancy belongs in this category. Perhaps some photos. Or some book/movie recommendation I have chanced upon which may be fancy to you too. So we can be fancy together.
+footer: Love Always, Mai
 ---
