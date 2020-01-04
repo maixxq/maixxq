@@ -14,6 +14,7 @@ export default {
             type: Number,
             default: 0
         }
+
     },
     data() {
         return {
@@ -85,6 +86,7 @@ export default {
 
 <template>
 	<div>  
+        <h1>blog post</h1>
         <div 
             v-if="selectedTags.length > 0"
             class="filtered-heading"
