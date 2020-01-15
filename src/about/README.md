@@ -4,5 +4,6 @@ lang: en-US
 ---
 # About Me
 
-I'm a great developer who has a lot of great things to share with the world.
-Can't wait to start writing more about topics I love and am passionate about!
+An engineering student interested in technology, big data and designs. I am curious to try many things of different fields during my years of studies. I strive to create valuable products and services that can be used by others with my knowledge and skills. 
+
+I drink way much coffee for a person my age. 

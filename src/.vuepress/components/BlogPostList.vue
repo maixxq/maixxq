@@ -86,7 +86,7 @@ export default {
 
 <template>
 	<div>  
-        <h1>blog post</h1>
+        <h1>Blog Post</h1>
         <div 
             v-if="selectedTags.length > 0"
             class="filtered-heading"
@@ -148,6 +148,8 @@ export default {
 
 .blog-list__tags {
     margin-bottom: 15px;
+    list-style-type: none;
+	
 }
 
 .button--pagination {
