@@ -2,7 +2,7 @@
 title: Blogging Like a Hacker
 lang: en-US
 ---
-# ** About Me **
+# About Me 
 
 An engineering student interested in technology, big data and designs. 
 
