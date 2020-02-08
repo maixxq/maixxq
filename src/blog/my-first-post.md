@@ -4,9 +4,6 @@ date: 2020-01-14 20:47:18
 excerpt: First method of the learning technique series. " I learned very early the difference between knowing the name of something and knowing something." - Richard P. Feynman
 type: post
 blog: true
-tags:
-    - Golden Nuggets
-    - Learning Techniques
 ---
 
 Feynman technique is a learning method which is insipired by Richard Feynman, a renowned physicist and also one of the greatest lectuerer at all times. This method is used by Mr Feynman himeself to ensure a thorough understanding of a topic he wishes to study. 
