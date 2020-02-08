@@ -4,6 +4,8 @@ lang: en-US
 ---
 # About Me 
 
+![ Make's Photo ](/Mak.jpeg)
+
 An engineering student interested in technology, big data and designs. 
 
 > To do work that matters, and make a difference that I care about.
