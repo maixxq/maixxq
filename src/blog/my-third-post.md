@@ -1,9 +1,7 @@
 ---
 title: Words of the day
 date: 2020-02-22 21:50:21
-
-excerpt: At the end of the day, it pretty much all depends on how we choose to look at the world. Changing our perspectives and attitude towards the things we face ultimately changes the things we are looking at.
-
+excerpt: At the end of the day, it pretty much all depends on how we choose to look at the world. Changing our perspectives and attitude towards the things we face ultimately change the things we are looking at.
 type: post
 blog: true
 ---
