@@ -14,11 +14,11 @@ There are many jobs I have taken up during this journey. Other than the attracti
  
 The F&B industry is a good place to start for a part time job. Some of the restaurants or higher-end cafes are likely to have a pay of $8-10 per hour, which is slightly higher than the market rate as compared to working in the retail sector (Usually $8 as for 2020). It might also have a more flexible roster depending on various cafes/restaurants.
  
-As a service staff on the floor, I have to face the customers and maintain general cleanliness in the restaurant. While tough situations may arise, driving me out of my comfort zone, I am thankful for those parts as they are lessons I have to learn sooner or later in life.
+As a service staff on the floor, I have to face customers and maintain general cleanliness in the restaurant. While tough situations may arise, driving me out of my comfort zone, I am thankful for those parts as they are lessons I have to learn sooner or later in life.
  
 #### The art of cleaning: sweep, mop, wipe
  
-First, in case it may not come as intuitively, sweeping comes before mopping. Next, do you know there exists a method for proper mopping? It is called the "figure eight" (8) mopping method. Mopping in this manner ensures the remaining bits that might have missed in the initial sweep. If you like science as I do, you get to play with cleaning chemicals (e.g baking soda - sodium bicarbonate + vinegar) so as to remove stubborn dirt on the floor or in the sink. It could be a workout but the satisfaction derived from a nice shiny floor is absolutely amazing. This would earn you some praise at home too.
+In case it may not come as intuitively, sweeping comes before mopping. Next, little did I know that there exists a method for proper mopping, called the "figure eight" (8) mopping method. Mopping in this manner ensures the remaining bits that might have missed in the initial sweep. If you like science as I do, you get to play with cleaning chemicals (e.g baking soda - sodium bicarbonate + vinegar) so as to remove stubborn dirt on the floor or in the sink. It could be a workout but the satisfaction derived from a nice shiny floor is absolutely amazing. Besides, this would earn you some praise at home too.
  
 #### The art of communication
  

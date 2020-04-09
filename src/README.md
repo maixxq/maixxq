@@ -5,7 +5,7 @@ heroImage: /mailogo1.png
 heroText: THEMAKBYMAK
 tagline: A place for some of Mai's stories
 actionText: Come On In →
-actionLink: " "
+actionLink: "https://github.com/maixxq/maixxq"
 features:
 - 
     title: Little Thoughts
