@@ -7,7 +7,6 @@ module.exports = {
 		repo: 'https://wwww.github.com',
 		repoLabel: 'Repo',
 		editLinks: true,
-		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
