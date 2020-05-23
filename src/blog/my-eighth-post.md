@@ -4,7 +4,10 @@ date: 2020-05-15 00:15:00
 excerpt: Binary search algorithm is an efficient way to find an item from a sorted array. It has O(log n) time complexity and O(1) space complexity. This algorithm works on the principle of divide and conquer, using half-interval search to compare the location of the target value and the middle element of the array. 
 type: post
 blog: true
+tags: 
+- leetcode
 ---
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 Binary search is an effective algorithm for searching a target element in a **sorted** array. It does so by always dividing the list of items into half and compare the position of the target value with the middle element. Elements need to be sorted first if it is not in order. The implementation of this search algorithm can be made in the iterative method or the recursive method.
 
@@ -33,15 +36,15 @@ int binarySearch(int arr[],int left,int right, target) {
 #### Space Complexity: O(1)
 Given a sorted array [ 0, 1, 2, 3, 5, 7, 9] and our target element is 7, we first find the middle element by diving the array into two. Identifying 3 as the middle element, we have the left interval [0, 1, 2] and the right interval [5, 7, 9]. The sorted array (in ascending order) ensures elements in left interval are all smaller than the middle element while the elements in the right interval are all bigger than the middle element.
 
-<img src="/binary_search_0.png" width="800rem" height="280rem">
+<img src="/binary_search_0.png" width="600em" height="220em">
 
 Next, we compare the target element 7 with the middle element 3. Since 7 is larger than 3, we can discard the left interval entirely and search the target value in the right interval. Then we repeat the process after updating the lower bound (middle element) of the right interval by one index.
 
-<img src="/binary_search_1.png" width="700rem" height="280rem">
+<img src="/binary_search_1.png" width="600em" height="220em">
 
 This leads to the search in interval [5, 7, 9] and we return the mid element 7 as it is equal to the target value.
 
-<img src="/binary_search_2.png" width="650rem" height="290rem">
+<img src="/binary_search_2.png" width="600em" height="280em">
 
 
 
@@ -96,11 +99,11 @@ public:
 
 First, we can locate the smallest element in the array. Since the smallest element is the pivot point, we know that both left and right side of the smallest element will be arraged in ascending order. With this in mind, the first while loop is set to find the smallest element. Observed that the smallest element is always named as the left bounded variable.
 
-<img src="/binary_search_3.png" width="780rem" height="650rem">
+<img src="/binary_search_3.png" width="800rem" height="650rem">
 
 Once the smallest element in the array is found, a variable `int begin = left ` is created to indicate the starting index of smallest element. Next, left and right boundary are reset again with the new variable `begin` in the array. Two sorted arrays can be seen from left to begin and from begin to right. Now, original binary search can be conducted after we compare target value to the value in the `begin` index. If target value is bigeer than the nums[begin] and smaller than nums[right], we shift left boundary to begin and binary search on the right side. Else, we shift the right boundary to begin and search on the left side. As such, the target value will be returned in O(log n) time.
 
-<img src="/binary_search_4.png" width="680rem" height="650rem">
+<img src="/binary_search_4.png" width="700rem" height="650rem">
 
 ### Notes
 This is my first time dissecting a leetcode problem and solution step by step to ensure that I know exactly what each line of codes is doing. I hope this post can help someone to understand the solution better by the visualization. It was indeed a challenging task to thoroughly comprehend the solution even though the solution is short. Sometimes when we watch or read a tutorial on coding question, there is a tendency to think that we understand the solution. I admit I often fall into this rabbit hole and so this is a good start to improve my coding.

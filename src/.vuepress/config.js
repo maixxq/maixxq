@@ -4,14 +4,17 @@ module.exports = {
 	title: 'Hello World',
 	dest: './public',
 	themeConfig: {
-		repo: 'https://wwww.github.com',
-		repoLabel: 'Repo',
-		editLinks: true,
+		//repo: 'https://wwww.github.com',
+		//repoLabel: 'Repo',
+		//editLinks: true,
 		nav: [
 			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
 			{ text: 'About', link: '/about/' },
+			{ text: 'another', link: '/another/' },
+
 		],
+		//sidebar: 'auto',
 		logo: '/mailogo1.png',
 		docsDir: 'src',
 		pageSize: 5,

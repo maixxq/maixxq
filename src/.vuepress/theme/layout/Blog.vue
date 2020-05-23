@@ -119,36 +119,36 @@ export default {
       }
     },
 
-    editLink () {
-      if (this.$page.frontmatter.editLink === false) {
-        return
-      }
-      const {
-        repo,
-        editLinks,
-        docsDir = '',
-        docsBranch = 'master',
-        docsRepo = repo
-      } = this.$site.themeConfig
+    // editLink () {
+    //   if (this.$page.frontmatter.editLink === false) {
+    //     return
+    //   }
+    //   const {
+    //     repo,
+    //     editLinks,
+    //     docsDir = '',
+    //     docsBranch = 'master',
+    //     docsRepo = repo
+    //   } = this.$site.themeConfig
 
-      let path = normalize(this.$page.path)
-      if (endingSlashRE.test(path)) {
-        path += 'README.md'
-      } else {
-        path += '.md'
-      }
-      if (docsRepo && editLinks) {
-        return this.createEditLink(repo, docsRepo, docsDir, docsBranch, path)
-      }
-    },
+    //   let path = normalize(this.$page.path)
+    //   if (endingSlashRE.test(path)) {
+    //     path += 'README.md'
+    //   } else {
+    //     path += '.md'
+    //   }
+    //   if (docsRepo && editLinks) {
+    //     return this.createEditLink(repo, docsRepo, docsDir, docsBranch, path)
+    //   }
+    // },
 
-    editLinkText () {
-      return (
-        this.$themeLocaleConfig.editLinkText ||
-        this.$site.themeConfig.editLinkText ||
-        `Edit this page`
-      )
-    },
+    // editLinkText () {
+    //   return (
+    //     this.$themeLocaleConfig.editLinkText ||
+    //     this.$site.themeConfig.editLinkText ||
+    //     `Edit this page`
+    //   )
+    // },
 
     publishDate() {
         const dateFormat = new Date(this.$frontmatter.date)
