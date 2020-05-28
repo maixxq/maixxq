@@ -21,12 +21,10 @@ module.exports = {
 		startPage: 0
 	},
 	plugins: [
-		[
 			'@vuepress/google-analytics',
 			{
 				ga: '' // UA-00000000-0
-			}
-		],
+			},
 		[
 			'vuepress-plugin-rss',
 			{

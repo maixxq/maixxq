@@ -67,6 +67,7 @@ import nprogress from 'nprogress'
 import Blog from './layout/Blog.vue'
 import Home from './layout/Home.vue'
 import Page from './layout/Page.vue'
+import Testpage from './layout/Testpage.vue'
 import Navbar from './components/Navbar.vue'
 import Sidebar from './components/Sidebar.vue'
 import SWUpdatePopup from './components/SWUpdatePopup.vue'
@@ -77,6 +78,7 @@ export default {
     Blog,
     Home, 
     Page, 
+    Testpage,
     Sidebar, 
     Navbar, 
     SWUpdatePopup 

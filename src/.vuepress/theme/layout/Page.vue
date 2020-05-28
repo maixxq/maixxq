@@ -216,7 +216,7 @@ function find (page, items, offset) {
     float right
     font-size 0.9em
     .prefix
-      font-weight 500
+      font-weight 800
       color lighten($textColor, 25%)
     .time
       font-weight 400
@@ -226,12 +226,16 @@ function find (page, items, offset) {
   @extend $wrapper
   padding-top 1rem
   padding-bottom 0
+  font-family: 'Poppins';
+  font-weight: bolder;
+
   .inner
     min-height 2rem
     margin-top 0
     border-top 1px solid $borderColor
     padding-top 1rem
     overflow auto // clear float
+    
   .next
     float right
 

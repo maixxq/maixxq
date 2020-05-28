@@ -59,7 +59,6 @@
         </span>
       </p>
     </div>
-
     <slot name="bottom"/>
   </div>
 </template>
@@ -69,6 +68,7 @@ import { resolvePage, normalize, outboundRE, endingSlashRE } from '../util'
 
 export default {
   name: 'Blog',
+
 
   props: ['sidebarItems'],
 
@@ -228,10 +228,13 @@ function find (page, items, offset) {
 
 .blog__header {
   padding-top: 4.6rem;
+
 }
 
 .blog__title {
   margin-top: 0;
+  font-family: 'Poppins';
+  font-weight: bold;
 }
 
 .publish-date {
@@ -246,8 +249,10 @@ function find (page, items, offset) {
   padding-left 0
   padding-right 0
   overflow auto
+  
   .edit-link
     display inline-block
+    
     a
       color lighten($textColor, 25%)
       margin-right 0.25rem
@@ -264,6 +269,7 @@ function find (page, items, offset) {
 .page-nav
   padding-top 1rem
   padding-bottom 0
+  
   .inner
     min-height 2rem
     margin-top 0

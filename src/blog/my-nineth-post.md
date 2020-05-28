@@ -5,7 +5,6 @@ excerpt:  This problem is about 2D array. Our goal is to create the next generat
 type: post
 blog: true
 tags: 
-- leetcode
 ---
 
 According to the Wikipedia's article: "The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."
@@ -117,6 +116,16 @@ if (board[x][y] &1) {
 ![ ogl00's Photo ](/gol000.svg)
 
 4. Iterate the new 2D grid and modify the number assigned according to its second lowest bit. For example, second lowest bit for the number 1 with binary representation as 0001 is 0, marking a dead cell in the next generation while cells updated to number 2 (binary: 0010) or 3 (binary: 0011) will live in the next generation. To examine each cell's second lowest bit, we use `board[i][j] >>= 1` which means the value of board[i][j] is being shifted by one bit to the right.
-
+ 
 ### Notes
 There are quite a fair bit to digest in this problem using the in place solution. It is my first time making use of bit representation. It definitely didn't come intuitively. Glad that this gives me a little exposure to binary representation of numbers. The qusestion introduce operators like ` x & 1 ` and ` x >>= 1 `.It is one new topic I have yet started reading about it. The directional iteration is quite useful in such 2D grid problems so it's worth noting it down. 
+
+Also, the concept of 'in-place' is something notable. According to an article on [geeksforgeeks](https://www.geeksforgeeks.org/in-place-algorithm/):
+
+#### Strict definition of in-place algorithm
+> An in-place algorithm is an algorithm that does not need an extra space and produces an output in the same memory that contains the data by transforming the input ‘in-place’. However, a small constant extra space used for variables is allowed.
+
+#### More general definition of in-place algorithm
+> In-place means that the algorithm does not use extra space for manipulating the input but may require a small though nonconstant extra space for its operation. Usually, this space is O(log n), though sometimes anything in o(n) (Smaller than linear) is allowed.
+
+

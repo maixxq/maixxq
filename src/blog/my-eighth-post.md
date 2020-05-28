@@ -5,7 +5,6 @@ excerpt: Binary search algorithm is an efficient way to find an item from a sort
 type: post
 blog: true
 tags: 
-- leetcode
 ---
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
