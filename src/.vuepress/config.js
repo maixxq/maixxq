@@ -22,7 +22,7 @@ module.exports = {
 	plugins: [
 			'@vuepress/google-analytics',
 			{
-				ga: 'UA-163309019-1' // UA-00000000-0
+				ga: 'UA-163309019-2' // UA-00000000-0
 			},
 		[
 			'vuepress-plugin-rss',
