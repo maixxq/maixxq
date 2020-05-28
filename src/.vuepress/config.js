@@ -11,7 +11,6 @@ module.exports = {
 			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
 			{ text: 'About', link: '/about/' },
-			{ text: 'another', link: '/another/' },
 
 		],
 		//sidebar: 'auto',
