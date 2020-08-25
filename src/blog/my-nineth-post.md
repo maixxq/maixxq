@@ -4,7 +4,6 @@ date: 2020-05-16 00:15:00
 excerpt:  This problem is about 2D array. Our goal is to create the next generation of cells in the 2D gird based on the rules implemented. Seemingly an easy problem but there are so many things to be learnt in order to solve it with efficiency. That's exactly why practice makes perfect, isn't it? 
 type: post
 blog: true
-tags: 
 ---
 
 According to the Wikipedia's article: "The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."
