@@ -65,5 +65,3 @@ Redwood City|7
 San Jose|16
 San Francisco|35
 ```
-
-#### Question 3: Find the percentage of trips in each city.
