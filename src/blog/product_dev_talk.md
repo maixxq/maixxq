@@ -36,7 +36,7 @@ However, getting adoption by the targeted market is often challenging even when 
 
 ### Sometimes... Users ≠ Customers
 
-Another point to note is that users who use the product or service, may not always be the customers who pay for it. This is evident from the childcare industry or even in toy manufacturing as parents are the ones paying for their children. This highlights the importances of customer segments as in the case, the solution to the problem faced by these two customer segments can be vastly different. Therefore, their needs should be addressed distinctively. 
+Another point to note is that users who use the product or service, may not always be the customers who pay for it. This is evident from the childcare industry or even in toy manufacturing as parents are the ones paying for their children. This highlights the importance of customer segments as in this case, the solution to the problem faced by these two customer segments can be vastly different. Therefore, their needs should be addressed distinctively. 
 
 ### Distributional channel matters
  
